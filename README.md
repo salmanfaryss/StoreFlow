@@ -92,18 +92,20 @@ Bu proje, ASP.NET Core MVC ve Entity Framework Core konularında edinilen bilgil
 
 ### Products
 
-![Products](Screenshots/products.png)
+![image alt](https://github.com/salmanfaryss/StoreFlow/blob/5686deff2f791e05d045fa3a01494589523c22d4/Urun%20Tablsou.png)
 
 ### Categories
 
-![Categories](Screenshots/categories.png)
+![image alt](https://github.com/salmanfaryss/StoreFlow/blob/5686deff2f791e05d045fa3a01494589523c22d4/Kategori%20Tablsou.png)
 
-### Customers
+### Statik Methods
 
-![Customers](Screenshots/customers.png)
+![image alt](https://github.com/salmanfaryss/StoreFlow/blob/5686deff2f791e05d045fa3a01494589523c22d4/Method.png)
 
-### Orders
+### Notlarım
 
-![Orders](Screenshots/orders.png)
+![image alt](https://github.com/salmanfaryss/StoreFlow/blob/5686deff2f791e05d045fa3a01494589523c22d4/ProductS%C4%B1n%C4%B1fMetod2.jpeg)
+![image alt](https://github.com/salmanfaryss/StoreFlow/blob/5686deff2f791e05d045fa3a01494589523c22d4/ProductS%C4%B1n%C4%B1fMetod.jpeg)
+![image alt](https://github.com/salmanfaryss/StoreFlow/blob/5686deff2f791e05d045fa3a01494589523c22d4/CustomerS%C4%B1n%C4%B1fMetod.jpeg)
 
 
