@@ -84,7 +84,11 @@ Bu proje, ASP.NET Core MVC ve Entity Framework Core konularında edinilen bilgil
 
 ### Dashboard
 
-![Dashboard](Screenshots/dashboard.png)
+![image alt](https://github.com/salmanfaryss/StoreFlow/blob/0cdc4929c413ab5da91a30784b30b56fbd57491f/Statik.png)
+![image alt](https://github.com/salmanfaryss/StoreFlow/blob/0cdc4929c413ab5da91a30784b30b56fbd57491f/DasboardStaticTablosu.png)
+![image alt](https://github.com/salmanfaryss/StoreFlow/blob/0cdc4929c413ab5da91a30784b30b56fbd57491f/DashboardActivityStatic.png)
+![image alt](https://github.com/salmanfaryss/StoreFlow/blob/0cdc4929c413ab5da91a30784b30b56fbd57491f/DashboardStatistik.png)
+
 
 ### Products
 
