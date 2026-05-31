@@ -80,8 +80,26 @@ Bu proje boyunca özellikle aşağıdaki konularda önemli deneyimler kazandım:
 
 Bu proje, ASP.NET Core MVC ve Entity Framework Core konularında edinilen bilgilerin gerçek bir iş senaryosu üzerinde uygulanması amacıyla geliştirilmiştir.
 
-## 👨‍💻 Developer
+## 📸 Screenshots
 
-Souleymane Tiendrebeogo
+### Dashboard
 
-GitHub: https://github.com/salmanfaryss
+![Dashboard](Screenshots/dashboard.png)
+
+### Products
+
+![Products](Screenshots/products.png)
+
+### Categories
+
+![Categories](Screenshots/categories.png)
+
+### Customers
+
+![Customers](Screenshots/customers.png)
+
+### Orders
+
+![Orders](Screenshots/orders.png)
+
+
