@@ -1,0 +1,41 @@
+﻿@using StoreFlow.Models.LINQ_Siniflari
+@model List<ToDoByPrioryteCount>
+@{
+    ViewData["Title"] = "ToDosByPriorytyCount";
+    Layout = "~/Views/Layout/Index.cshtml";
+}
+
+<div class="row">
+    <div class="col-lg-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h3 class="card-title">Yapılacak Listesi</h3>
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Description</th>
+                                <th>Priority</th>
+                                <th>Sayı</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <th>@item.Description</th>
+                                    <td>@item.Priority</td>
+                                    <td>@item.Count</td>
+                                   
+                                </tr>
+                            }
+
+                        </tbody>
+                    </table>
+                  
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

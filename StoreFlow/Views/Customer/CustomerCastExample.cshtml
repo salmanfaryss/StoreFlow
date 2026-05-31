@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewData["Title"] = "CustomerCastExample";
+    Layout = "~/Views/Layout/Index.cshtml";
+}
+@foreach(var x in ((IEnumerable <object>)ViewBag.v).Cast<Customer>())
+    
+{
+    <p>@x.CustomerName @x.CustomerSurname - @x.CustomerCity</p>
+}
+
+
+@* <h1>Müşteri Cast Örneği</h1>
+
+@foreach (var item in ((IEnumerable<object>)ViewBag.v).Cast<Customer>())
+{
+    <p>@item.CustomerName @item.CustomerSurname - @item.CustomerCity</p>
+} *@

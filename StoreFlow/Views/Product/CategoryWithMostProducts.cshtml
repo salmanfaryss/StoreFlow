@@ -1,0 +1,10 @@
+﻿@using StoreFlow.Models.LINQ_Siniflari
+@model CategoryWithMostProducts
+@{
+    ViewData["Title"] = "CategoryWithMostProducts";
+    Layout = "~/Views/Layout/Index.cshtml";
+}
+
+<h1>En Çok Ürün Kategori Adi: @Model.CategoryName </h1>
+<h1>Ürün Sayı : @Model.ProductCount </h1>
+

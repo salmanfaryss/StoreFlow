@@ -1,0 +1,23 @@
+﻿
+@model List<CategoryCountViewModel>
+
+@{
+    ViewData["Title"] = "ProductCount";
+    Layout = "~/Views/Layout/Index.cshtml";
+}
+
+<h2>Kategorilere Göre Ürün Sayısı</h2>
+
+<table class="table table-bordered">
+    <tr>
+        <th>Kategori</th>
+        <th>Ürün Sayısı</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.CategoryName</td>
+            <td>@item.Count</td>
+        </tr>
+    }
+</table>

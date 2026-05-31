@@ -1,0 +1,24 @@
+﻿@using StoreFlow.Models.LINQ_Siniflari
+@model List<CategoryStockValues>
+@{
+    ViewData["Title"] = "CategoryStockValues";
+    Layout = "~/Views/Layout/Index.cshtml";
+}
+
+<h2>Kategorilere Göre Ürün Sayısı</h2>
+
+<table class="table table-bordered">
+    <tr>
+        <th>Kategori</th>
+        <th>Stock</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.CategoryName</td>
+            <td>@item.StockCount</td>
+        </tr>
+    }
+</table>
+
+
